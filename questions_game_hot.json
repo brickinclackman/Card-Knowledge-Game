@@ -1,0 +1,67 @@
+{
+    "Hearts": {
+      "As": "Quel est ton plus grand fantasme ?",
+      "2": "As-tu déjà envoyé un message que tu as regretté après ? Si oui, lequel ?",
+      "3": "Quelle est la chose la plus osée que tu as faite en public ?",
+      "4": "Avec qui voudrais-tu partager un dîner romantique idéal ?",
+      "5": "Quel compliment intime te fait le plus plaisir ?",
+      "6": "As-tu déjà eu un coup de foudre pour quelqu'un ?",
+      "7": "As-tu déjà embrassé quelqu'un dans un endroit insolite ?",
+      "8": "Quel est le geste romantique le plus marquant que tu as reçu ?",
+      "9": "Préférerais-tu un amour intense et court ou une relation stable mais sans passion ?",
+      "10": "As-tu déjà écrit une lettre d'amour à quelqu'un ?",
+      "Jack": "Quelle est ta plus grande qualité dans une relation amoureuse ?",
+      "Queen": "Qu'est-ce qui te rend irrésistible, selon toi ?",
+      "King": "Quelle est la chose la plus séduisante qu'on t'ait dite ?"
+    },
+    "Diamonds": {
+      "As": "Quelle est ta tenue préférée pour une soirée spéciale ?",
+      "2": "As-tu déjà tenté quelque chose que tu pensais impossible ?",
+      "3": "Quelle est la chose la plus audacieuse sur ta bucket list ?",
+      "4": "As-tu déjà fait une surprise romantique ? Si oui, laquelle ?",
+      "5": "Quel est ton accessoire préféré pour te sentir séduisant(e) ?",
+      "6": "Quelle destination serait idéale pour une escapade romantique ?",
+      "7": "Quel est le meilleur cadeau romantique que tu as offert ou reçu ?",
+      "8": "Quel est ton parfum préféré sur une autre personne ?",
+      "9": "Quelle est ta chanson préférée pour un moment intime ?",
+      "10": "Si tu devais choisir un dîner parfait, que servirais-tu à table ?",
+      "Jack": "Quel est ton plus grand atout pour séduire quelqu'un ?",
+      "Queen": "Quel film romantique ou érotique te fait rêver ?",
+      "King": "Si tu pouvais passer une nuit dans un endroit magique, où serait-ce ?"
+    },
+    "Clubs": {
+      "As": "Si tu pouvais changer une chose dans ta vie amoureuse, que changerais-tu ?",
+      "2": "Quelle est ta plus grande peur dans une relation ?",
+      "3": "Quel est ton type de complicité idéal avec ton/ta partenaire ?",
+      "4": "As-tu déjà eu une expérience drôle ou embarrassante en amour ?",
+      "5": "Quelle est ta plus grande surprise romantique à ce jour ?",
+      "6": "Préférerais-tu un rendez-vous à la maison ou dans un restaurant chic ?",
+      "7": "Si tu pouvais vivre une scène de film romantique, laquelle choisirais-tu ?",
+      "8": "Quelle est ta définition d'une soirée parfaite à deux ?",
+      "9": "Quel est ton meilleur souvenir d'un premier rendez-vous ?",
+      "10": "Quel est ton geste préféré pour montrer ton amour ?",
+      "Jack": "Si tu devais préparer un rendez-vous parfait, que ferais-tu ?",
+      "Queen": "Quelle est la chose la plus charmante qu'on ait faite pour toi ?",
+      "King": "Quel est ton petit plaisir coupable en amour ?"
+    },
+    "Spades": {
+      "As": "Quel est le secret le plus fou que tu as confié à quelqu'un ?",
+      "2": "As-tu déjà eu un crush inattendu ?",
+      "3": "Quelle est la chose la plus excitante que tu aies faite en vacances ?",
+      "4": "Si tu pouvais revivre une soirée parfaite, laquelle serait-ce ?",
+      "5": "Quel est ton plus grand désir pour l'avenir ?",
+      "6": "As-tu déjà caché des sentiments pour quelqu'un ?",
+      "7": "Quelle est la première chose que tu remarques chez une personne attirante ?",
+      "8": "Quel est ton souvenir le plus marquant d'une relation passée ?",
+      "9": "As-tu une habitude secrète que peu de gens connaissent ?",
+      "10": "Préférerais-tu être direct(e) ou attendre un moment parfait pour avouer tes sentiments ?",
+      "Jack": "Quelle est la chose la plus séduisante que quelqu'un ait faite pour toi ?",
+      "Queen": "As-tu une playlist spéciale pour des moments intimes ?",
+      "King": "Quelle est ta plus grande faiblesse en amour ?"
+    },
+    "Jokers": {
+      "Red": "Si tu pouvais poser une question à n'importe qui ici, quelle serait-elle ?",
+      "Black": "Quel est ton fantasme le plus irréalisable ?"
+    }
+  }
+  

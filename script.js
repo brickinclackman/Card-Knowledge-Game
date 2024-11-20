@@ -19,7 +19,7 @@ function initializeGame(questions) {
     console.log('Données JSON :', questions);
 
     // Exemple : afficher une question pour l'As de Hearts dans la console
-    console.log('As de Hearts :', questions.Hearts.As);
+    console.log('As de Hearts :', questions.Coeurs.As);
 
     // Exemple d'interaction dynamique
     const questionContainer = document.getElementById('question');
@@ -30,12 +30,8 @@ function initializeGame(questions) {
         const randomCard = getRandomKey(questions[randomSuit]); // Carte aléatoire
 
         // Affiche la question correspondante
-        questionContainer.textContent = `Question (${randomSuit} ${randomCard}): ${questions[randomSuit][randomCard]}`;
+        questionContainer.textContent = `Question (${randomCard} de ${randomSuit}): ${questions[randomSuit][randomCard]}`;
 
-        document.getElementById("card-output").innerHTML = `
-        <h3>${randomSuit}${randomCard}</h3>
-        <p>${questions[randomSuit][randomCard]}</p>
-      `;
     });
 }
 

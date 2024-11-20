@@ -1,0 +1,67 @@
+{
+    "Hearts": {
+      "As": "Si tu pouvais être une saucisse géante, que ferais-tu de ta journée ?",
+      "2": "Quelle est la pire excuse que tu as donnée pour éviter de faire quelque chose ?",
+      "3": "Si tu pouvais parler à un animal, lequel choisirais-tu et pourquoi ?",
+      "4": "Quel serait le pire prénom pour un enfant ?",
+      "5": "Si tu devais choisir un super-pouvoir inutile, lequel prendrais-tu ?",
+      "6": "Quel est le plus grand fou rire que tu aies eu et pourquoi ?",
+      "7": "Si tu devais te déguiser en légume pour une fête, lequel choisirais-tu ?",
+      "8": "Quelle chanson te donne envie de danser comme un fou ?",
+      "9": "Si tu devais donner un nom à ton pied gauche, quel serait-il ?",
+      "10": "Quelle est la chose la plus stupide que tu as achetée ?",
+      "Jack": "Si tu devais vivre une journée entière en parlant comme un pirate, que dirais-tu ?",
+      "Queen": "Si tu devais inventer une nouvelle danse, comment s'appellerait-elle ?",
+      "King": "Quel est ton talent secret que personne ne devrait jamais voir ?"
+    },
+    "Diamonds": {
+      "As": "Si tu pouvais être un objet pendant une journée, lequel serais-tu et pourquoi ?",
+      "2": "Si ton animal de compagnie pouvait parler, que dirait-il sur toi ?",
+      "3": "Quel est le pire repas que tu pourrais imaginer ?",
+      "4": "Si tu devais vivre une journée entière déguisé(e) en licorne, que ferais-tu ?",
+      "5": "Quelle est la pire coupe de cheveux que tu pourrais avoir ?",
+      "6": "Si tu devais chanter une chanson devant tout le monde, laquelle choisirais-tu ?",
+      "7": "Si tu pouvais ajouter un jour férié absurde au calendrier, que célébrerait-il ?",
+      "8": "Si tu pouvais échanger ton prénom contre un autre pendant une journée, lequel prendrais-tu ?",
+      "9": "Quelle est la chose la plus étrange que tu as faite dans ton sommeil ?",
+      "10": "Quel est le pire costume que tu pourrais porter à une soirée déguisée ?",
+      "Jack": "Si tu devais parler avec un accent drôle toute la journée, lequel choisirais-tu ?",
+      "Queen": "Si tu devais imiter un animal pour une heure, lequel choisirais-tu ?",
+      "King": "Si tu pouvais inventer une nouvelle règle absurde pour ce jeu, laquelle serait-elle ?"
+    },
+    "Clubs": {
+      "As": "Quel est le surnom le plus embarrassant qu'on t'ait donné ?",
+      "2": "Si tu devais passer toute une journée en talons hauts ou déguisé(e) en clown, que choisirais-tu ?",
+      "3": "Quelle est la chose la plus stupide que tu aies faite pour impressionner quelqu'un ?",
+      "4": "Si tu devais inventer un nouveau mot, que signifierait-il ?",
+      "5": "Quel est le plus gros mensonge que tu as dit quand tu étais enfant ?",
+      "6": "Quelle est la chose la plus embarrassante qui t'est arrivée à l'école ?",
+      "7": "Si tu pouvais échanger ta vie avec une célébrité pour une journée, qui choisirais-tu et pourquoi ?",
+      "8": "Si tu devais créer une émission de télé-réalité, quel serait son concept ?",
+      "9": "Quelle est la pire façon d'essayer de draguer quelqu'un ?",
+      "10": "Si tu pouvais être invisible pendant une heure, quelle serait la chose la plus stupide que tu ferais ?",
+      "Jack": "Si tu devais choisir un aliment pour te représenter, lequel serait-ce ?",
+      "Queen": "Si tu devais jouer dans un film comique, quel serait ton rôle ?",
+      "King": "Si tu devais participer à un concours de talents, quel talent absurde présenterais-tu ?"
+    },
+    "Spades": {
+      "As": "Quel est le pire surnom qu'on pourrait te donner ?",
+      "2": "Si tu pouvais transformer n'importe quoi en gâteau, que choisirais-tu ?",
+      "3": "Quelle est la chose la plus étrange que tu aies faite dans ta vie ?",
+      "4": "Si tu devais être une créature imaginaire, laquelle serais-tu et pourquoi ?",
+      "5": "Quelle est la blague la plus nulle que tu connais ?",
+      "6": "Si tu devais nommer une étoile, quel nom lui donnerais-tu ?",
+      "7": "Si tu pouvais faire une farce à quelqu'un sans qu'il sache que c'est toi, que ferais-tu ?",
+      "8": "Quel est le pire cadeau que tu as reçu ou offert ?",
+      "9": "Si tu devais te marier avec un aliment, lequel choisirais-tu ?",
+      "10": "Si tu devais raconter une histoire drôle, laquelle choisirais-tu ?",
+      "Jack": "Si tu pouvais échanger ta voix avec celle d’un personnage de dessin animé, qui choisirais-tu ?",
+      "Queen": "Si tu pouvais changer une règle de la société, laquelle abolirais-tu ?",
+      "King": "Si tu pouvais vivre dans un monde fictif, lequel choisirais-tu et pourquoi ?"
+    },
+    "Jokers": {
+      "Red": "Si tu pouvais dire une phrase absurde qui deviendrait célèbre, laquelle dirais-tu ?",
+      "Black": "Si tu devais inventer une chanson à l'instant, quel en serait le titre ?"
+    }
+  }
+  

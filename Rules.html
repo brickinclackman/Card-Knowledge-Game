@@ -1,32 +1,175 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jeu de cartes - Mieux se connaître</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu de cartes - Mieux se connaître</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  <header>
-    <h1>Jeu de cartes - Apprenons à nous connaître</h1>
-    <nav>
-        <a href="./index.html">Home</a>
-        <a href="./play.html">Tirer une carte</a>
-    </nav>
-  </header>
+    <header>
+        <h1>Jeu de cartes - Apprenons à nous connaître</h1>
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./play.html">Tirer une carte</a>
+        </nav>
+    </header>
 
-  <main>
-    <section id="rules">
-      <h2>Règles du jeu</h2>
-      <p>Chaque carte du jeu correspond à une question à poser. Les couleurs définissent des thèmes...</p>
-    </section>
+    <main>
+        <section id="rules_title">
+            <h2>Règles détaillées du jeu</h2>
+            <p>Ce jeu est conçu pour mieux connaître les participants à travers des questions associées à un jeu de
+                cartes standard (52 cartes + jokers). Voici les règles et variantes détaillées pour jouer de manière
+                conviviale.</p>
+        </section>
 
-  </main>
+        <section id="rules_mat">
+            <h2>Matériel requis</h2>
+            <ol>
+                <li>Un jeu de 52 cartes classiques (+ éventuellement 2 jokers).</li>
+                <li>Les questions associées aux cartes, fournies dans un fichier JSON ou sur papier.</li>
+                <li>Au moins deux joueurs.</li>
+            </ol>
+        </section>
 
-  <footer>
-    <p>Créé par Brickin Clackman.</p>
-  </footer>
+        <section id="rule_prepa">
+            <h2>Préparation du jeu</h2>
+            <ol>
+                <li>Mélangez le jeu de cartes.</li>
+                <li>Disposez les cartes en un paquet face cachée au centre de la table.</li>
+                <li>Assurez-vous que chaque carte a une question associée (par exemple, via un fichier JSON chargé dans une application ou une liste imprimée).</li>
+            </ol>
+        </section>
 
-  <script src="script.js"></script>
+        <section>
+            <h2>But du jeu</h2>
+            <ul>
+                <li>Apprendre à mieux connaître les autres joueurs à travers des réponses sincères et amusantes aux questions posées.</li>
+            </ul>
+        </section>
+
+        <section id="rule_deroulement">
+            <h2>Déroulement du jeu</h2>
+            <ol>
+                <li>Définir un ordre de passage : Les joueurs décident qui commence, puis le tour passe dans le sens horaire.</li>
+                <li>Piocher une carte : Le joueur dont c'est le tour tire une carte du paquet.</li>
+                <li>
+                    Poser la question correspondante :
+                    <ul>
+                        <li>
+                            Identifiez la question associée à la carte piochée :
+                            <ul>
+                                <li>La couleur (cœur, carreau, trèfle, pique) correspond à une catégorie de questions.</li>
+                                <li>La valeur (As, Roi, 2, 10, etc.) correspond à une question spécifique dans cette catégorie.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Répondre à la question :
+                    <ul>
+                        <li>Le joueur doit répondre à la question honnêtement.</li>
+                        <li>Si un joueur refuse de répondre (optionnel), il peut effectuer un défi ou une pénalité définie par le groupe.</li>
+                    </ul>
+                </li>
+                <li>Passer au joueur suivant : Une fois la question répondue (ou refusée), le tour passe au joueur suivant.</li>
+                <li>Fin du jeu : Le jeu se termine lorsque toutes les cartes ont été tirées ou lorsque les joueurs décident d’arrêter.</li>
+            </ol>
+        </section>
+
+        <section id="rule_Category">
+            <h2>Catégories de questions (Couleurs des cartes)</h2>
+            <ol>
+                <li>Cœurs : Questions personnelles ou émotionnelles (ex. : souvenirs, émotions, relations).</li>
+                <li>Carreaux : Questions sur les rêves et ambitions (ex. : objectifs de vie, projets futurs).</li>
+                <li>Trèfles : Questions légères et amusantes (ex. : préférences, habitudes).</li>
+                <li>Piques : Questions introspectives et profondes (ex. : peurs, regrets, valeurs).</li>
+                <li>Jokers (optionnel) : Questions bonus ou choix du joueur pour répondre à n'importe quelle question.</li>
+            </ol>
+        </section>
+
+        <section id="rule_supp">
+            <h2>Règles supplémentaires (optionnelles)</h2>
+            <ol>
+                <li>
+                    Pénalités : Si un joueur refuse de répondre à une question, il peut être soumis à une pénalité. Par exemple :*
+                    <ul>
+                        <li>Révéler une anecdote embarrassante.</li>
+                        <li>Chanter une chanson.</li>
+                        <li>Perdre un point (si vous jouez avec un système de points).</li>
+                    </ul>
+                </li>
+                <li>
+                    Système de points (compétitif) :
+                    <ul>
+                        <li>Chaque réponse honnête rapporte 1 point.</li>
+                        <li>Les joueurs peuvent voter si une réponse est jugée "non sincère" ou incomplète.</li>
+                        <li>Le joueur avec le plus de points à la fin gagne.</li>
+                    </ul>
+                </li>
+                <li>
+                    Variantes pour groupes :
+                    <ul>
+                        <li>Tour collectif : Une carte est tirée et la question est posée à tout le groupe. Chacun doit répondre.</li>
+                        <li>Récit collaboratif : Le joueur tire une carte et commence une histoire liée à la question. Les autres joueurs ajoutent à l'histoire en tirant à leur tour une carte.</li>
+                    </ul>
+                </li>
+            </ol>
+        </section>
+
+        <section id="rule_exemple">
+            <h2>Exemple de jeu</h2>
+            <ul>
+                <li>
+                    Joueur 1 tire un As de Carreau :
+                    <ul>
+                        <li>Question associée : "Quel est ton rêve le plus fou que tu aimerais réaliser ?"</li>
+                        <li>Le joueur répond : "Faire un tour du monde en van aménagé."</li>
+                    </ul>
+                </li>
+                <li>
+                    Joueur 2 tire un 10 de Trèfle :
+                    <ul>
+                        <li>Question associée : "Si tu pouvais être un personnage de fiction, qui choisirais-tu ?"</li>
+                        <li>Le joueur répond : "Harry Potter, pour vivre à Poudlard !"</li>
+                    </ul>
+                </li>
+                <li>
+                    Joueur 3 tire un Joker :
+                    <ul>
+                        <li>Le joueur choisit une question dans n'importe quelle catégorie.</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section id="rule_conseil">
+            <h2>Conseils pour un jeu réussi</h2>
+            <ol>
+                <li>Créer un climat bienveillant : Encouragez l’honnêteté sans jugement.</li>
+                <li>Adapter les questions au groupe : Assurez-vous que les questions conviennent à l'âge et au niveau de proximité des joueurs.</li>
+                <li>Introduire de l'humour : Ajoutez des questions drôles ou légères pour équilibrer avec les questions introspectives.</li>
+            </ol>
+        </section>
+
+        <section id="rule_var_num">
+            <h2>Variante numérique (site web ou application)</h2>
+            <p>Si tu veux implémenter ce jeu en ligne :</p>
+            <ol>
+                <li>Les questions sont chargées dynamiquement à partir du fichier JSON.</li>
+                <li>Une carte virtuelle est tirée et affichée à l’écran.</li>
+                <li>Le joueur répond à la question via un formulaire ou dans un chat.</li>
+            </ol>
+        </section>
+    </main>
+
+    <footer>
+        <p>Créé par Brickin Clackman.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
+
 </html>

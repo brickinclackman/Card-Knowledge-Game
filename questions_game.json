@@ -1,5 +1,5 @@
 {
-    "Hearts": {
+    "Coeurs": {
         "As": "Quel est ton meilleur souvenir d’enfance ?",
         "2": "Quelle est la plus belle preuve d’amour que tu as reçue ?",
         "3": "Qu’est-ce qui te rend le plus heureux(se) au quotidien ?",
@@ -14,7 +14,7 @@
         "Dame": "Quel est le plus beau compliment que l’on t’ait fait ?",
         "Roi": "Quelle est la leçon de vie la plus précieuse que tu aies apprise ?"
     },
-    "Diamonds": {
+    "Carreaux": {
         "As": "Si tu pouvais apprendre une nouvelle compétence, laquelle serait-ce ?",
         "2": "Quelle est ton activité préférée pour te détendre ?",
         "3": "Quel est ton film ou ta série préférée ?",
@@ -29,7 +29,7 @@
         "Dame": "Quelle est ton activité créative favorite ?",
         "Roi": "Si tu pouvais passer une journée avec une célébrité, qui serait-ce ?"
     },
-    "Clubs": {
+    "Trèfles": {
         "As": "Où te vois-tu dans 5 ans ?",
         "2": "Quelle est ta plus grande ambition ?",
         "3": "Préfères-tu travailler seul(e) ou en équipe ? Pourquoi ?",
@@ -44,7 +44,7 @@
         "Dame": "Si tu pouvais lancer une entreprise, quelle serait-elle ?",
         "Roi": "Quel est ton plus grand défi pour atteindre tes objectifs ?"
     },
-    "Spades": {
+    "Piques": {
         "As": "Quel est le plus grand défi que tu as surmonté ?",
         "2": "Quelle est la décision la plus difficile que tu aies jamais prise ?",
         "3": "As-tu un souvenir embarrassant, mais drôle ?",
