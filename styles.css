@@ -1,38 +1,87 @@
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f9;
-    color: #333;
-  }
-  
-  header {
-    background: #333;
-    color: #fff;
-    padding: 10px 20px;
-    text-align: center;
-  }
-  
-  nav a {
-    margin: 0 10px;
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  main {
-    padding: 20px;
-  }
-  
-  button {
-    background: #007BFF;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background: #0056b3;
-  }
-  
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #000000;
+  text-decoration: none;
+}
+
+main {
+  padding: 0px;
+  margin-top: 50px; /* Assure que le contenu principal ne soit pas masqué par le header */
+}
+
+button {
+  background: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  justify-content: center; /* Centre les éléments horizontalement */
+  align-items: center; /* Centre les éléments verticalement */
+  position: fixed; /* Le header devient fixe */
+  top: 0;
+  width: 100%; /* S'étend sur toute la largeur */
+  z-index: 1000; /* Assure que le header reste au-dessus des autres éléments */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Ajoute un effet d'ombre */
+}
+
+.header .header__logo{
+  justify-items: left;
+  padding-left: 20px;
+  color: aliceblue;
+}
+
+.navbar__menu{
+  display: flex; /* Aligne les éléments horizontalement */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar__item {
+  display: inline-block;
+}
+
+.navbar__item .navbar__link{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar__item .navbar__link:hover{
+  background-color: #979797;
+}
+
+.navbar__link span {
+  margin-left: 5px; /* Espace entre l'icône et le texte */
+}

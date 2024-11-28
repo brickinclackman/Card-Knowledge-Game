@@ -7,17 +7,26 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <!header>
-  <header>
-    <h1>Jeu de cartes - Apprenons à nous connaître</h1>
-    <nav>
-        <a href="./index.html">Home</a>
-        <a href="./Rules.html">Règles du jeu</a>
+  <div class="header">
+    <div class="header__logo">
+      <strong>BC</strong>
+    </div>
+    <nav class="navbar">
+      <ul class="navbar__menu">
+        <li class="navbar__item">
+          <a href="./index.html" class="navbar__link"><i data-feather="message-square"></i><span>Home</span></a>
+        </li>
+        <li class="navbar__item">
+          <a href="./Rules.html" class="navbar__link"><i data-feather="message-square"></i><span>Règles du jeu</span></a>
+        </li>
+      </ul>
     </nav>
-  </header>
+  </div>
 
   <main>
-
+    <header>
+      <h1>Jeu de cartes - Apprenons à nous connaître</h1>
+    </header>
     <section id="play">
         <h2>Joue une partie</h2>
         <button id="drawCard">Tirer une carte</button>
@@ -31,5 +40,6 @@
   </footer>
 
   <script src="script.js"></script>
+  
 </body>
 </html>
