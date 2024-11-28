@@ -9,15 +9,28 @@
 </head>
 
 <body>
-    <header>
-        <h1>Jeu de cartes - Apprenons à nous connaître</h1>
-        <nav>
-            <a href="./index.html">Home</a>
-            <a href="./play.html">Tirer une carte</a>
+    <div class="header">
+        <div class="header__logo">
+            <strong>BC</strong>
+        </div>
+        <nav class="navbar">
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="./index.html" class="navbar__link"><i
+                            data-feather="message-square"></i><span>Home</span></a>
+                </li>
+                <li class="navbar__item">
+                    <a href="./Rules.html" class="navbar__link"><i data-feather="message-square"></i><span>Règles du
+                            jeu</span></a>
+                </li>
+            </ul>
         </nav>
-    </header>
+    </div>
 
     <main>
+        <header>
+            <h1>Jeu de cartes - Apprenons à nous connaître</h1>
+        </header>
         <section id="rules_title">
             <h2>Règles détaillées du jeu</h2>
             <p>Ce jeu est conçu pour mieux connaître les participants à travers des questions associées à un jeu de
@@ -39,21 +52,24 @@
             <ol>
                 <li>Mélangez le jeu de cartes.</li>
                 <li>Disposez les cartes en un paquet face cachée au centre de la table.</li>
-                <li>Assurez-vous que chaque carte a une question associée (par exemple, via un fichier JSON chargé dans une application ou une liste imprimée).</li>
+                <li>Assurez-vous que chaque carte a une question associée (par exemple, via un fichier JSON chargé dans
+                    une application ou une liste imprimée).</li>
             </ol>
         </section>
 
         <section>
             <h2>But du jeu</h2>
             <ul>
-                <li>Apprendre à mieux connaître les autres joueurs à travers des réponses sincères et amusantes aux questions posées.</li>
+                <li>Apprendre à mieux connaître les autres joueurs à travers des réponses sincères et amusantes aux
+                    questions posées.</li>
             </ul>
         </section>
 
         <section id="rule_deroulement">
             <h2>Déroulement du jeu</h2>
             <ol>
-                <li>Définir un ordre de passage : Les joueurs décident qui commence, puis le tour passe dans le sens horaire.</li>
+                <li>Définir un ordre de passage : Les joueurs décident qui commence, puis le tour passe dans le sens
+                    horaire.</li>
                 <li>Piocher une carte : Le joueur dont c'est le tour tire une carte du paquet.</li>
                 <li>
                     Poser la question correspondante :
@@ -61,8 +77,10 @@
                         <li>
                             Identifiez la question associée à la carte piochée :
                             <ul>
-                                <li>La couleur (cœur, carreau, trèfle, pique) correspond à une catégorie de questions.</li>
-                                <li>La valeur (As, Roi, 2, 10, etc.) correspond à une question spécifique dans cette catégorie.</li>
+                                <li>La couleur (cœur, carreau, trèfle, pique) correspond à une catégorie de questions.
+                                </li>
+                                <li>La valeur (As, Roi, 2, 10, etc.) correspond à une question spécifique dans cette
+                                    catégorie.</li>
                             </ul>
                         </li>
                     </ul>
@@ -71,11 +89,14 @@
                     Répondre à la question :
                     <ul>
                         <li>Le joueur doit répondre à la question honnêtement.</li>
-                        <li>Si un joueur refuse de répondre (optionnel), il peut effectuer un défi ou une pénalité définie par le groupe.</li>
+                        <li>Si un joueur refuse de répondre (optionnel), il peut effectuer un défi ou une pénalité
+                            définie par le groupe.</li>
                     </ul>
                 </li>
-                <li>Passer au joueur suivant : Une fois la question répondue (ou refusée), le tour passe au joueur suivant.</li>
-                <li>Fin du jeu : Le jeu se termine lorsque toutes les cartes ont été tirées ou lorsque les joueurs décident d’arrêter.</li>
+                <li>Passer au joueur suivant : Une fois la question répondue (ou refusée), le tour passe au joueur
+                    suivant.</li>
+                <li>Fin du jeu : Le jeu se termine lorsque toutes les cartes ont été tirées ou lorsque les joueurs
+                    décident d’arrêter.</li>
             </ol>
         </section>
 
@@ -86,7 +107,8 @@
                 <li>Carreaux : Questions sur les rêves et ambitions (ex. : objectifs de vie, projets futurs).</li>
                 <li>Trèfles : Questions légères et amusantes (ex. : préférences, habitudes).</li>
                 <li>Piques : Questions introspectives et profondes (ex. : peurs, regrets, valeurs).</li>
-                <li>Jokers (optionnel) : Questions bonus ou choix du joueur pour répondre à n'importe quelle question.</li>
+                <li>Jokers (optionnel) : Questions bonus ou choix du joueur pour répondre à n'importe quelle question.
+                </li>
             </ol>
         </section>
 
@@ -94,7 +116,8 @@
             <h2>Règles supplémentaires (optionnelles)</h2>
             <ol>
                 <li>
-                    Pénalités : Si un joueur refuse de répondre à une question, il peut être soumis à une pénalité. Par exemple :*
+                    Pénalités : Si un joueur refuse de répondre à une question, il peut être soumis à une pénalité. Par
+                    exemple :*
                     <ul>
                         <li>Révéler une anecdote embarrassante.</li>
                         <li>Chanter une chanson.</li>
@@ -112,8 +135,10 @@
                 <li>
                     Variantes pour groupes :
                     <ul>
-                        <li>Tour collectif : Une carte est tirée et la question est posée à tout le groupe. Chacun doit répondre.</li>
-                        <li>Récit collaboratif : Le joueur tire une carte et commence une histoire liée à la question. Les autres joueurs ajoutent à l'histoire en tirant à leur tour une carte.</li>
+                        <li>Tour collectif : Une carte est tirée et la question est posée à tout le groupe. Chacun doit
+                            répondre.</li>
+                        <li>Récit collaboratif : Le joueur tire une carte et commence une histoire liée à la question.
+                            Les autres joueurs ajoutent à l'histoire en tirant à leur tour une carte.</li>
                     </ul>
                 </li>
             </ol>
@@ -149,8 +174,10 @@
             <h2>Conseils pour un jeu réussi</h2>
             <ol>
                 <li>Créer un climat bienveillant : Encouragez l’honnêteté sans jugement.</li>
-                <li>Adapter les questions au groupe : Assurez-vous que les questions conviennent à l'âge et au niveau de proximité des joueurs.</li>
-                <li>Introduire de l'humour : Ajoutez des questions drôles ou légères pour équilibrer avec les questions introspectives.</li>
+                <li>Adapter les questions au groupe : Assurez-vous que les questions conviennent à l'âge et au niveau de
+                    proximité des joueurs.</li>
+                <li>Introduire de l'humour : Ajoutez des questions drôles ou légères pour équilibrer avec les questions
+                    introspectives.</li>
             </ol>
         </section>
 
