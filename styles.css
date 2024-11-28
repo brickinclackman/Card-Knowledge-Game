@@ -40,6 +40,11 @@ button:hover {
   background: #0056b3;
 }
 
+#play{
+  text-align: center;
+  padding-bottom: 155px;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -94,6 +99,12 @@ button:hover {
   padding-right: 3%;
 }
 
+.demo{
+  padding-left: 3%;
+  padding-right: 3%;
+  text-align: center;
+}
+
 .pied2page{
   background-color: #333;
   color: #979797;
@@ -106,7 +117,6 @@ button:hover {
   width: 100%;
   background: #3586ff;
   min-height: 100px;
-  padding: 20px 50px;
   display: flex;
   justify-content: center;
   align-items: center;

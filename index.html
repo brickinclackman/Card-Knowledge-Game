@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jeu de cartes - Mieux se connaître</title>
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
   <div class="header">
     <div class="header__logo">
@@ -17,7 +19,8 @@
           <a href="./play.html" class="navbar__link"><i data-feather="message-square"></i><span>Let's PLAY</span></a>
         </li>
         <li class="navbar__item">
-          <a href="./Rules.html" class="navbar__link"><i data-feather="message-square"></i><span>Règles du jeu</span></a>
+          <a href="./Rules.html" class="navbar__link"><i data-feather="message-square"></i><span>Règles du
+              jeu</span></a>
         </li>
       </ul>
     </nav>
@@ -27,24 +30,52 @@
     <header>
       <h1>Jeu de cartes - Apprenons à nous connaître</h1>
     </header>
-    <section id="rules">
-      <h2>Règles du jeu</h2>
-      <p>Chaque carte du jeu correspond à une question à poser. Les couleurs définissent des thèmes...</p>
-      <p>Pour plus de détail, <a href="./Rules.html">cliquez ici</a></p>
-    </section>
-
-    <section id="play">
+    <div class="demo">
+      <section id="rules">
+        <h2>Règles du jeu</h2>
+        <p>Chaque carte du jeu correspond à une question à poser. Les couleurs définissent des thèmes...</p>
+        <p>Pour plus de détail, <a href="./Rules.html">cliquez ici</a></p>
+      </section>
+  
+      <section id="play">
         <h2>Joue une partie</h2>
         <button id="drawCard">Tirer une carte</button>
         <div id="question">La question sera écrite ici...</div>
         <div id="card-output"></div>
       </section>
+    </div>
+    
   </main>
 
-  <footer>
-    <p>Créé par Brickin Clackman.</p>
+  <footer class="footer">
+    <div class="waves">
+      <div class="wave" id="wave1"></div>
+      <div class="wave" id="wave2"></div>
+      <div class="wave" id="wave3"></div>
+      <div class="wave" id="wave4"></div>
+    </div>
+    <ul class="social-icon">
+      <li class="social-icon__item"><a class="social-icon__link" href="https://www.facebook.com/martin.ligny.3">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="https://www.instagram.com/brickin_clackman/">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="https://www.brickin-studio.fr">
+          <ion-icon name="camera"></ion-icon>
+        </a></li>
+    </ul>
+    <ul class="menu">
+      <li class="menu__item"><a class="menu__link" href="./index.html">Accueil</a></li>
+      <li class="menu__item"><a class="menu__link" href="https://www.brickin-studio.fr">Pictures WebSite</a></li>
+
+    </ul>
+    <p>&copy;2024 Brickin Clackman | Tout droits réservé</p>
   </footer>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
   <script src="script.js"></script>
 </body>
+
 </html>
