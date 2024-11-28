@@ -1,5 +1,5 @@
 {
-    "Hearts": {
+    "Coeur": {
       "As": "Quel est ton plus grand fantasme ?",
       "2": "As-tu déjà envoyé un message que tu as regretté après ? Si oui, lequel ?",
       "3": "Quelle est la chose la plus osée que tu as faite en public ?",
@@ -14,7 +14,7 @@
       "Queen": "Qu'est-ce qui te rend irrésistible, selon toi ?",
       "King": "Quelle est la chose la plus séduisante qu'on t'ait dite ?"
     },
-    "Diamonds": {
+    "Carreaux": {
       "As": "Quelle est ta tenue préférée pour une soirée spéciale ?",
       "2": "As-tu déjà tenté quelque chose que tu pensais impossible ?",
       "3": "Quelle est la chose la plus audacieuse sur ta bucket list ?",
@@ -29,7 +29,7 @@
       "Queen": "Quel film romantique ou érotique te fait rêver ?",
       "King": "Si tu pouvais passer une nuit dans un endroit magique, où serait-ce ?"
     },
-    "Clubs": {
+    "Trefles": {
       "As": "Si tu pouvais changer une chose dans ta vie amoureuse, que changerais-tu ?",
       "2": "Quelle est ta plus grande peur dans une relation ?",
       "3": "Quel est ton type de complicité idéal avec ton/ta partenaire ?",
@@ -44,7 +44,7 @@
       "Queen": "Quelle est la chose la plus charmante qu'on ait faite pour toi ?",
       "King": "Quel est ton petit plaisir coupable en amour ?"
     },
-    "Spades": {
+    "Piques": {
       "As": "Quel est le secret le plus fou que tu as confié à quelqu'un ?",
       "2": "As-tu déjà eu un crush inattendu ?",
       "3": "Quelle est la chose la plus excitante que tu aies faite en vacances ?",

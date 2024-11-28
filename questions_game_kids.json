@@ -1,5 +1,5 @@
 {
-    "Hearts": {
+    "Coeur": {
       "As": "Quel est ton animal préféré et pourquoi ?",
       "2": "Si tu pouvais être un super-héros, qui serais-tu et pourquoi ?",
       "3": "Quelle est ta couleur préférée et qu'est-ce qu'elle représente pour toi ?",
@@ -14,7 +14,7 @@
       "Queen": "Quel est ton héros ou ton héroïne dans la vraie vie ?",
       "King": "Si tu pouvais visiter un endroit dans le monde, où irais-tu ?"
     },
-    "Diamonds": {
+    "Carreau": {
       "As": "Si tu pouvais avoir un super pouvoir, lequel choisirais-tu ?",
       "2": "Quelle est ta sucrerie préférée ?",
       "3": "Quel est ton fruit préféré ?",
@@ -29,7 +29,7 @@
       "Queen": "Quel est ton livre ou histoire préférée ?",
       "King": "Si tu pouvais voler dans le ciel, où irais-tu en premier ?"
     },
-    "Clubs": {
+    "Trefles": {
       "As": "Quelle est la chose la plus drôle que tu sais faire ?",
       "2": "Si tu pouvais passer toute une journée à faire une seule chose, que ferais-tu ?",
       "3": "Quel est ton héros préféré dans un film ou une série ?",
@@ -44,7 +44,7 @@
       "Queen": "Quelle est la chose que tu adores apprendre à l'école ?",
       "King": "Si tu pouvais choisir un animal pour te tenir compagnie en classe, lequel serait-il ?"
     },
-    "Spades": {
+    "Piques": {
       "As": "Si tu pouvais construire la maison de tes rêves, comment serait-elle ?",
       "2": "Quel est ton personnage préféré dans un jeu vidéo ?",
       "3": "Quelle est la chose la plus courageuse que tu as faite ?",

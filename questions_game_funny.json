@@ -1,5 +1,5 @@
 {
-    "Hearts": {
+    "Coeur": {
       "As": "Si tu pouvais être une saucisse géante, que ferais-tu de ta journée ?",
       "2": "Quelle est la pire excuse que tu as donnée pour éviter de faire quelque chose ?",
       "3": "Si tu pouvais parler à un animal, lequel choisirais-tu et pourquoi ?",
@@ -14,7 +14,7 @@
       "Queen": "Si tu devais inventer une nouvelle danse, comment s'appellerait-elle ?",
       "King": "Quel est ton talent secret que personne ne devrait jamais voir ?"
     },
-    "Diamonds": {
+    "Carreaux": {
       "As": "Si tu pouvais être un objet pendant une journée, lequel serais-tu et pourquoi ?",
       "2": "Si ton animal de compagnie pouvait parler, que dirait-il sur toi ?",
       "3": "Quel est le pire repas que tu pourrais imaginer ?",
@@ -29,7 +29,7 @@
       "Queen": "Si tu devais imiter un animal pour une heure, lequel choisirais-tu ?",
       "King": "Si tu pouvais inventer une nouvelle règle absurde pour ce jeu, laquelle serait-elle ?"
     },
-    "Clubs": {
+    "Trefles": {
       "As": "Quel est le surnom le plus embarrassant qu'on t'ait donné ?",
       "2": "Si tu devais passer toute une journée en talons hauts ou déguisé(e) en clown, que choisirais-tu ?",
       "3": "Quelle est la chose la plus stupide que tu aies faite pour impressionner quelqu'un ?",
@@ -44,7 +44,7 @@
       "Queen": "Si tu devais jouer dans un film comique, quel serait ton rôle ?",
       "King": "Si tu devais participer à un concours de talents, quel talent absurde présenterais-tu ?"
     },
-    "Spades": {
+    "Piques": {
       "As": "Quel est le pire surnom qu'on pourrait te donner ?",
       "2": "Si tu pouvais transformer n'importe quoi en gâteau, que choisirais-tu ?",
       "3": "Quelle est la chose la plus étrange que tu aies faite dans ta vie ?",

@@ -45,6 +45,44 @@ button:hover {
   padding-bottom: 155px;
 }
 
+/* Boîte de message personnalisée */
+.message-box {
+  display: none; /* Cachée par défaut */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  width: 300px;
+  text-align: center;
+}
+
+.message-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#closeMessageBox {
+  margin-top: 15px;
+  background-color: #ff5733;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#closeMessageBox:hover {
+  background-color: #c7462f;
+}
+
+
 .header {
   display: flex;
   justify-content: space-between;

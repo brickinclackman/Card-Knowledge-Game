@@ -27,6 +27,13 @@
   </div>
 
   <main>
+    <!-- Conteneur pour la boîte de message personnalisée -->
+    <div id="customMessageBox" class="message-box">
+      <div class="message-content">
+        <p id="messageText">Vous avez atteint la limite de clics pour cette page.</p>
+        <button id="closeMessageBox">Fermer</button>
+      </div>
+    </div>
     <header>
       <h1>Jeu de cartes - Apprenons à nous connaître</h1>
     </header>
@@ -36,15 +43,16 @@
         <p>Chaque carte du jeu correspond à une question à poser. Les couleurs définissent des thèmes...</p>
         <p>Pour plus de détail, <a href="./Rules.html">cliquez ici</a></p>
       </section>
-  
+
       <section id="play">
         <h2>Joue une partie</h2>
         <button id="drawCard">Tirer une carte</button>
         <div id="question">La question sera écrite ici...</div>
         <div id="card-output"></div>
+        <button id="resetButton">Réinitialiser le cache</button>
       </section>
     </div>
-    
+
   </main>
 
   <footer class="footer">
@@ -75,7 +83,7 @@
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-  <script src="script.js"></script>
+  <script src="script-v2.js"></script>
 </body>
 
 </html>
