@@ -118,14 +118,24 @@ function initializeGame(questions) {
             customMessageBox.style.display = 'none';
         });
 
-        // Réinitialiser le compteur de clics
+        // Réinitialiser le compteur de clics et rediriger vers la page index
         resetButton.addEventListener('click', () => {
+            // Supprimer le compteur de clics dans localStorage
             localStorage.removeItem('clickCount');
+
+            // Réinitialiser la variable clickCount
             clickCount = 0;
+
+            // Afficher un message de réinitialisation
             customMessageBox.style.display = 'block';
-            messageText.textContent = 'Le compteur de clics a été réinitialisé.';
-            drawCardButton.disabled = false;
+            messageText.textContent = 'Le compteur de clics a été réinitialisé. Vous allez être redirigé vers la page d\'accueil.';
+
+            // Après un délai, rediriger vers la page 'index' (accueil)
+            setTimeout(() => {
+                window.location.href = 'index.html';  // Redirection vers la page index
+            }, 2000);  // Attendre 2 secondes avant de rediriger (ajustez ce délai selon vos besoins)
         });
+
     } else if (isPlayPage) {
         // Aucun limite pour la page "play"
         drawCardButton.addEventListener('click', () => {
