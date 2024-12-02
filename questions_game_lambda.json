@@ -1,0 +1,66 @@
+{
+    "Coeurs": {
+        "As": "Quel est ton meilleur souvenir d’enfance ?",
+        "2": "Quelle est la plus belle preuve d’amour que tu as reçue ?",
+        "3": "Qu’est-ce qui te rend le plus heureux(se) au quotidien ?",
+        "4": "Quelle est la personne la plus importante dans ta vie et pourquoi ?",
+        "5": "Quelle est ta plus grande peur ?",
+        "6": "Que fais-tu pour te réconforter dans les moments difficiles ?",
+        "7": "As-tu une qualité dont tu es particulièrement fier(ère) ?",
+        "8": "Quel est ton plus grand rêve ?",
+        "9": "Quelle est la chose que tu aimerais dire à ton 'toi' plus jeune ?",
+        "10": "Quelle chanson te fait toujours ressentir des émotions fortes ?",
+        "Valet": "Qui est ton modèle ou ta source d’inspiration ?",
+        "Dame": "Quel est le plus beau compliment que l’on t’ait fait ?",
+        "Roi": "Quelle est la leçon de vie la plus précieuse que tu aies apprise ?"
+    },
+    "Carreaux": {
+        "As": "Si tu pouvais apprendre une nouvelle compétence, laquelle serait-ce ?",
+        "2": "Quelle est ton activité préférée pour te détendre ?",
+        "3": "Quel est ton film ou ta série préférée ?",
+        "4": "Préfères-tu lire, regarder des films ou écouter de la musique ? Pourquoi ?",
+        "5": "Quelle est ta destination de voyage de rêve ?",
+        "6": "As-tu un talent ou un hobby peu connu ?",
+        "7": "Si tu pouvais vivre dans une autre époque, laquelle choisirais-tu ?",
+        "8": "Quel est ton plat ou restaurant préféré ?",
+        "9": "Quelle est ta façon préférée de passer un week-end ?",
+        "10": "Quel est ton jeu préféré (vidéo, société, ou autre) ?",
+        "Valet": "Quel est le dernier livre que tu as lu ou que tu veux lire ?",
+        "Dame": "Quelle est ton activité créative favorite ?",
+        "Roi": "Si tu pouvais passer une journée avec une célébrité, qui serait-ce ?"
+    },
+    "Trefles": {
+        "As": "Où te vois-tu dans 5 ans ?",
+        "2": "Quelle est ta plus grande ambition ?",
+        "3": "Préfères-tu travailler seul(e) ou en équipe ? Pourquoi ?",
+        "4": "Quel serait ton emploi idéal ?",
+        "5": "Quelle est la prochaine étape importante dans ta vie ?",
+        "6": "Quel projet personnel ou professionnel te passionne le plus ?",
+        "7": "Que ferais-tu si tu gagnais une grosse somme d’argent ?",
+        "8": "Quelle est la qualité que tu admires le plus chez les autres ?",
+        "9": "As-tu une méthode pour rester motivé(e) ?",
+        "10": "Quelle compétence aimerais-tu améliorer dans ta vie professionnelle ou personnelle ?",
+        "Valet": "Quel est ton plus grand succès jusqu’à maintenant ?",
+        "Dame": "Si tu pouvais lancer une entreprise, quelle serait-elle ?",
+        "Roi": "Quel est ton plus grand défi pour atteindre tes objectifs ?"
+    },
+    "Piques": {
+        "As": "Quel est le plus grand défi que tu as surmonté ?",
+        "2": "Quelle est la décision la plus difficile que tu aies jamais prise ?",
+        "3": "As-tu un souvenir embarrassant, mais drôle ?",
+        "4": "Quel est ton plus grand regret, si tu en as un ?",
+        "5": "Quelle situation stressante as-tu récemment vécue ?",
+        "6": "Quelle est la plus grande leçon apprise après un échec ?",
+        "7": "Si tu pouvais revenir en arrière, que changerais-tu dans ta vie ?",
+        "8": "Quelle est la chose la plus courageuse que tu aies faite ?",
+        "9": "As-tu déjà pris un risque qui a changé ta vie ?",
+        "10": "Quelle est la chose la plus surprenante que tu as apprise sur toi-même ?",
+        "Valet": "As-tu un souvenir marquant d’un voyage ou d’une expérience ?",
+        "Dame": "Quel est ton plus grand défi à venir ?",
+        "Roi": "Quelle est la chose la plus importante que tu veux accomplir dans ta vie ?"
+    },
+    "Jokers": {
+        "Rouge": "Pose une question à une personne au choix, mais elle peut choisir de ne pas répondre.",
+        "Noir": "Pose une question libre à une autre personne, qui doit répondre honnêtement."
+    }
+}
