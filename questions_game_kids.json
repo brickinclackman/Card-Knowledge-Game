@@ -1,5 +1,5 @@
 {
-    "Coeur": {
+  "Coeurs": {
       "As": "Quel est ton animal préféré et pourquoi ?",
       "2": "Si tu pouvais être un super-héros, qui serais-tu et pourquoi ?",
       "3": "Quelle est ta couleur préférée et qu'est-ce qu'elle représente pour toi ?",
@@ -10,11 +10,11 @@
       "8": "Quelle est la chose la plus drôle qui t'est arrivée ?",
       "9": "Quel est ton jeu préféré ?",
       "10": "Si tu pouvais inventer une nouvelle fête, quelle serait-elle ?",
-      "Jack": "Quelle est ton activité préférée après l'école ?",
-      "Queen": "Quel est ton héros ou ton héroïne dans la vraie vie ?",
-      "King": "Si tu pouvais visiter un endroit dans le monde, où irais-tu ?"
-    },
-    "Carreau": {
+      "Valet": "Quelle est ton activité préférée après l'école ?",
+      "Dame": "Quel est ton héros ou ton héroïne dans la vraie vie ?",
+      "Roi": "Si tu pouvais visiter un endroit dans le monde, où irais-tu ?"
+  },
+  "Carreaux": {
       "As": "Si tu pouvais avoir un super pouvoir, lequel choisirais-tu ?",
       "2": "Quelle est ta sucrerie préférée ?",
       "3": "Quel est ton fruit préféré ?",
@@ -25,11 +25,11 @@
       "8": "Quelle est ta chanson préférée ?",
       "9": "Si tu avais une baguette magique, que ferais-tu en premier ?",
       "10": "Quel est ton endroit préféré pour jouer ?",
-      "Jack": "Quel est ton jouet préféré ?",
-      "Queen": "Quel est ton livre ou histoire préférée ?",
-      "King": "Si tu pouvais voler dans le ciel, où irais-tu en premier ?"
-    },
-    "Trefles": {
+      "Valet": "Quel est ton jouet préféré ?",
+      "Dame": "Quel est ton livre ou histoire préférée ?",
+      "Roi": "Si tu pouvais voler dans le ciel, où irais-tu en premier ?"
+  },
+  "Trefles": {
       "As": "Quelle est la chose la plus drôle que tu sais faire ?",
       "2": "Si tu pouvais passer toute une journée à faire une seule chose, que ferais-tu ?",
       "3": "Quel est ton héros préféré dans un film ou une série ?",
@@ -40,11 +40,11 @@
       "8": "Si tu pouvais transformer une chose ordinaire en quelque chose de magique, laquelle choisirais-tu ?",
       "9": "Quel est ton dessert préféré ?",
       "10": "Si tu pouvais jouer dans un film, quel rôle aimerais-tu avoir ?",
-      "Jack": "Quelle est la blague la plus drôle que tu connais ?",
-      "Queen": "Quelle est la chose que tu adores apprendre à l'école ?",
-      "King": "Si tu pouvais choisir un animal pour te tenir compagnie en classe, lequel serait-il ?"
-    },
-    "Piques": {
+      "Valet": "Quelle est la blague la plus drôle que tu connais ?",
+      "Dame": "Quelle est la chose que tu adores apprendre à l'école ?",
+      "Roi": "Si tu pouvais choisir un animal pour te tenir compagnie en classe, lequel serait-il ?"
+  },
+  "Piques": {
       "As": "Si tu pouvais construire la maison de tes rêves, comment serait-elle ?",
       "2": "Quel est ton personnage préféré dans un jeu vidéo ?",
       "3": "Quelle est la chose la plus courageuse que tu as faite ?",
@@ -55,13 +55,12 @@
       "8": "Si tu pouvais inventer un nouveau jouet, comment serait-il ?",
       "9": "Quel est ton endroit préféré pour faire des câlins ?",
       "10": "Si tu pouvais parler à un animal, lequel choisirais-tu ?",
-      "Jack": "Quel est ton repas préféré du soir ?",
-      "Queen": "Si tu pouvais choisir un animal pour être ton meilleur ami, lequel serait-ce ?",
-      "King": "Quelle est ta meilleure aventure avec tes amis ?"
-    },
-    "Jokers": {
-      "Red": "Si tu pouvais faire un souhait qui se réalise maintenant, que souhaiterais-tu ?",
-      "Black": "Si tu pouvais passer une journée entière avec ton personnage préféré, qui serait-ce ?"
-    }
+      "Valet": "Quel est ton repas préféré du soir ?",
+      "Dame": "Si tu pouvais choisir un animal pour être ton meilleur ami, lequel serait-ce ?",
+      "Roi": "Quelle est ta meilleure aventure avec tes amis ?"
+  },
+  "Jokers": {
+      "Rouge": "Si tu pouvais faire un souhait qui se réalise maintenant, que souhaiterais-tu ?",
+      "Noir": "Si tu pouvais passer une journée entière avec ton personnage préféré, qui serait-ce ?"
   }
-  
+}

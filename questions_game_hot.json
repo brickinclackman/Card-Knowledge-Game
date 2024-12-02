@@ -1,5 +1,5 @@
 {
-    "Coeur": {
+  "Coeurs": {
       "As": "Quel est ton plus grand fantasme ?",
       "2": "As-tu déjà envoyé un message que tu as regretté après ? Si oui, lequel ?",
       "3": "Quelle est la chose la plus osée que tu as faite en public ?",
@@ -10,11 +10,11 @@
       "8": "Quel est le geste romantique le plus marquant que tu as reçu ?",
       "9": "Préférerais-tu un amour intense et court ou une relation stable mais sans passion ?",
       "10": "As-tu déjà écrit une lettre d'amour à quelqu'un ?",
-      "Jack": "Quelle est ta plus grande qualité dans une relation amoureuse ?",
-      "Queen": "Qu'est-ce qui te rend irrésistible, selon toi ?",
-      "King": "Quelle est la chose la plus séduisante qu'on t'ait dite ?"
-    },
-    "Carreaux": {
+      "Valet": "Quelle est ta plus grande qualité dans une relation amoureuse ?",
+      "Dame": "Qu'est-ce qui te rend irrésistible, selon toi ?",
+      "Roi": "Quelle est la chose la plus séduisante qu'on t'ait dite ?"
+  },
+  "Carreaux": {
       "As": "Quelle est ta tenue préférée pour une soirée spéciale ?",
       "2": "As-tu déjà tenté quelque chose que tu pensais impossible ?",
       "3": "Quelle est la chose la plus audacieuse sur ta bucket list ?",
@@ -25,11 +25,11 @@
       "8": "Quel est ton parfum préféré sur une autre personne ?",
       "9": "Quelle est ta chanson préférée pour un moment intime ?",
       "10": "Si tu devais choisir un dîner parfait, que servirais-tu à table ?",
-      "Jack": "Quel est ton plus grand atout pour séduire quelqu'un ?",
-      "Queen": "Quel film romantique ou érotique te fait rêver ?",
-      "King": "Si tu pouvais passer une nuit dans un endroit magique, où serait-ce ?"
-    },
-    "Trefles": {
+      "Valet": "Quel est ton plus grand atout pour séduire quelqu'un ?",
+      "Dame": "Quel film romantique ou érotique te fait rêver ?",
+      "Roi": "Si tu pouvais passer une nuit dans un endroit magique, où serait-ce ?"
+  },
+  "Trefles": {
       "As": "Si tu pouvais changer une chose dans ta vie amoureuse, que changerais-tu ?",
       "2": "Quelle est ta plus grande peur dans une relation ?",
       "3": "Quel est ton type de complicité idéal avec ton/ta partenaire ?",
@@ -40,11 +40,11 @@
       "8": "Quelle est ta définition d'une soirée parfaite à deux ?",
       "9": "Quel est ton meilleur souvenir d'un premier rendez-vous ?",
       "10": "Quel est ton geste préféré pour montrer ton amour ?",
-      "Jack": "Si tu devais préparer un rendez-vous parfait, que ferais-tu ?",
-      "Queen": "Quelle est la chose la plus charmante qu'on ait faite pour toi ?",
-      "King": "Quel est ton petit plaisir coupable en amour ?"
-    },
-    "Piques": {
+      "Valet": "Si tu devais préparer un rendez-vous parfait, que ferais-tu ?",
+      "Dame": "Quelle est la chose la plus charmante qu'on ait faite pour toi ?",
+      "Roi": "Quel est ton petit plaisir coupable en amour ?"
+  },
+  "Piques": {
       "As": "Quel est le secret le plus fou que tu as confié à quelqu'un ?",
       "2": "As-tu déjà eu un crush inattendu ?",
       "3": "Quelle est la chose la plus excitante que tu aies faite en vacances ?",
@@ -55,13 +55,12 @@
       "8": "Quel est ton souvenir le plus marquant d'une relation passée ?",
       "9": "As-tu une habitude secrète que peu de gens connaissent ?",
       "10": "Préférerais-tu être direct(e) ou attendre un moment parfait pour avouer tes sentiments ?",
-      "Jack": "Quelle est la chose la plus séduisante que quelqu'un ait faite pour toi ?",
-      "Queen": "As-tu une playlist spéciale pour des moments intimes ?",
-      "King": "Quelle est ta plus grande faiblesse en amour ?"
-    },
-    "Jokers": {
-      "Red": "Si tu pouvais poser une question à n'importe qui ici, quelle serait-elle ?",
-      "Black": "Quel est ton fantasme le plus irréalisable ?"
-    }
+      "Valet": "Quelle est la chose la plus séduisante que quelqu'un ait faite pour toi ?",
+      "Dame": "As-tu une playlist spéciale pour des moments intimes ?",
+      "Roi": "Quelle est ta plus grande faiblesse en amour ?"
+  },
+  "Jokers": {
+      "Rouge": "Si tu pouvais poser une question à n'importe qui ici, quelle serait-elle ?",
+      "Noir": "Quel est ton fantasme le plus irréalisable ?"
   }
-  
+}
