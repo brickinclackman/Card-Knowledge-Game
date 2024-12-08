@@ -1,0 +1,20 @@
+{
+    "cards": [
+      {"name": "2C", "image": "./IMGs/2C.png", "suit": "Clubs", "value": 2},
+      {"name": "3C", "image": "./IMGs/3C.png", "suit": "Clubs", "value": 3},
+      {"name": "4C", "image": "./IMGs/4C.png", "suit": "Clubs", "value": 4},
+      {"name": "5C", "image": "./IMGs/5C.png", "suit": "Clubs", "value": 5},
+      {"name": "6C", "image": "6C.png", "suit": "Clubs", "value": 6},
+      {"name": "7C", "image": "7C.png", "suit": "Clubs", "value": 7},
+      {"name": "8C", "image": "8C.png", "suit": "Clubs", "value": 8},
+      {"name": "9C", "image": "9C.png", "suit": "Clubs", "value": 9},
+      {"name": "10C", "image": "10C.png", "suit": "Clubs", "value": 10},
+      {"name": "JC", "image": "JC.png", "suit": "Clubs", "value": 11},
+      {"name": "QC", "image": "QC.png", "suit": "Clubs", "value": 12},
+      {"name": "KC", "image": "KC.png", "suit": "Clubs", "value": 13},
+      {"name": "AC", "image": "AC.png", "suit": "Clubs", "value": 14},
+      {"name": "Joker1", "image": "X1.png", "suit": "None", "value": 0},
+      {"name": "Joker2", "image": "X2.png", "suit": "None", "value": 0}
+    ]
+  }
+  

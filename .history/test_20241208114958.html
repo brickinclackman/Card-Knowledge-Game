@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu de cartes</title>
+    <style>
+        .card {
+            display: inline-block;
+            margin: 10px;
+            text-align: center;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        .card img {
+            width: 100px;
+            height: 140px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Jeu de cartes</h1>
+    <div id="cards-container"></div>
+
+    <script>
+        // Charger le fichier JSON local
+        fetch("cards.json")
+            .then(response => response.json())
+            .then(data => {
+                const container = document.getElementById("cards-container");
+
+                // Parcourir toutes les cartes et les afficher
+                data.cards.forEach(card => {
+                    const cardElement = document.createElement("div");
+                    cardElement.className = "card";
+
+                    // Ajouter l'image et les informations
+                    cardElement.innerHTML = `
+                        <img src="${card.image}" alt="${card.name}">
+                        <p>${card.name} (${card.suit})</p>
+                    `;
+
+                    container.appendChild(cardElement);
+                });
+            })
+            .catch(error => console.error("Erreur lors du chargement des cartes :", error));
+    </script>
+</body>
+</html>

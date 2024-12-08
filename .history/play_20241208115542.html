@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jeu de cartes - Mieux se connaître</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<!-- Ajouter SweetAlert2 via CDN -->
+<link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.5.0/dist/sweetalert2.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.5.0/dist/sweetalert2.all.min.js"></script>
+
+<body>
+  <div class="header">
+    <div class="header__logo">
+      <strong>BC</strong>
+    </div>
+    <nav class="navbar">
+      <ul class="navbar__menu">
+        <li class="navbar__item">
+          <a href="./index.html" class="navbar__link"><i data-feather="message-square"></i><span>Home</span></a>
+        </li>
+        <li class="navbar__item">
+          <a href="./Rules.html" class="navbar__link"><i data-feather="message-square"></i><span>Règles du
+              jeu</span></a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <main>
+    <header>
+      <h1>Jeu de cartes - Apprenons à nous connaître</h1>
+    </header>
+  
+    <section id="play">
+      <h2>Joue une partie</h2>
+      <button id="drawCard">Tirer une carte</button>
+      <div id="random-card"></div>
+      <div id="question">La question sera écrite ici...</div>
+      <div id="card-output"></div>
+    </section>
+    <img src="roi_de_coeur.png" alt="Roi de Coeur" class="card" id="card">
+  </main>
+
+  <footer class="footer">
+    <div class="waves">
+      <div class="wave" id="wave1"></div>
+      <div class="wave" id="wave2"></div>
+      <div class="wave" id="wave3"></div>
+      <div class="wave" id="wave4"></div>
+    </div>
+    <ul class="social-icon">
+      <li class="social-icon__item"><a class="social-icon__link" href="https://www.facebook.com/martin.ligny.3">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="https://www.instagram.com/brickin_clackman/">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="https://www.brickin-studio.fr">
+          <ion-icon name="camera"></ion-icon>
+        </a></li>
+    </ul>
+    <ul class="menu">
+      <li class="menu__item"><a class="menu__link" href="./index.html">Accueil</a></li>
+      <li class="menu__item"><a class="menu__link" href="https://www.brickin-studio.fr">Pictures WebSite</a></li>
+
+    </ul>
+    <p>&copy;2024 Brickin Clackman | Tout droits réservé</p>
+  </footer>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script src="script-choix.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carte aléatoire</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f7f7f7;
+            font-family: Arial, sans-serif;
+        }
+        .card {
+            display: none; /* Masquée au départ */
+            width: 200px;
+            height: auto;
+            border: 2px solid #333;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin-top: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: #28a745;
+            color: white;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <button id="showCardBtn">Tirer une carte</button>
+        <img src="" alt="Carte à jouer" class="card" id="card">
+    </div>
+
+    <script>
+        // Liste des cartes (chemins des fichiers)
+        const cards = [
+            "images/cards/ace_of_hearts.png",
+            "images/cards/king_of_clubs.png",
+            "images/cards/queen_of_diamonds.png",
+            "images/cards/jack_of_spades.png",
+            "images/cards/10_of_hearts.png",
+            // Ajoutez toutes les cartes ici...
+        ];
+
+        // Ciblez le bouton et l'image
+        const button = document.getElementById('showCardBtn');
+        const card = document.getElementById('card');
+
+        // Fonction pour sélectionner une carte aléatoire
+        function getRandomCard() {
+            const randomIndex = Math.floor(Math.random() * cards.length);
+            return cards[randomIndex];
+        }
+
+        // Ajouter un événement au clic
+        button.addEventListener('click', () => {
+            const randomCard = getRandomCard(); // Obtenez une carte aléatoire
+            card.src = randomCard; // Changez la source de l'image
+            card.style.display = 'block'; // Affichez l'image
+        });
+    </script>
+</body>
+</html>

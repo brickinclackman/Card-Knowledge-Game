@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carte Aléatoire</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+        }
+        #random-card {
+            margin-top: 20px;
+            text-align: center;
+        }
+        #random-card img {
+            width: 150px;
+            height: auto;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: #007bff;
+            color: white;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tirer une Carte</h1>
+    <button id="drawCardBtn">Tirer une Carte Aléatoire</button>
+    <div id="random-card"></div>
+
+    <script>
+        // Charger le fichier JSON contenant les cartes
+        let cards = [];
+
+        fetch("cards.json")
+            .then(response => response.json())
+            .then(data => {
+                cards = data.cards; // Stocker toutes les cartes dans une variable
+            })
+            .catch(error => console.error("Erreur lors du chargement des cartes :", error));
+
+        // Cibler le bouton et le conteneur
+        const button = document.getElementById("drawCardBtn");
+        const cardContainer = document.getElementById("random-card");
+
+        // Ajouter un événement au clic
+        button.addEventListener("click", () => {
+            if (cards.length > 0) {
+                // Sélectionner une carte aléatoire
+                const randomIndex = Math.floor(Math.random() * cards.length);
+                const randomCard = cards[randomIndex];
+
+                console.log(randomIndex,randomCard);
+
+                // Afficher la carte
+                cardContainer.innerHTML = `
+                    <img src="${randomCard.image}" alt="${randomCard.name}">
+                    <p>${randomCard.name} (${randomCard.suit})</p>
+                `;
+            } else {
+                cardContainer.innerHTML = "<p>Les cartes ne sont pas encore chargées.</p>";
+            }
+        });
+    </script>
+</body>
+</html>
